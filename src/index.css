@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Capriola&display=swap");
+
+:root {
+  --header-color: #d3756b;
+  --footer-color: #737373;
+  --background-color: #f0997d;
+  --footer-color: #747474;
+  --dark-color: #a75d5d;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}

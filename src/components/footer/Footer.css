@@ -1,0 +1,176 @@
+.footer-container {
+  width: 100%;
+  height: 600px;
+  background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-box {
+  display: flex;
+  justify-content: center;
+  width: 82%;
+  height: 300px;
+  margin: auto;
+}
+
+/* contact heseg */
+.contact {
+  width: 48.5%;
+  height: 100%;
+  margin-top: 2rem;
+}
+
+.contact h1 {
+  font-family: "Capriola";
+  padding: 0 10px 0 10px;
+}
+.contact p {
+  font-family: "Capriola";
+  padding: 18px 50px 0 10px;
+}
+
+/* submit heseg */
+.submit {
+  width: 48.5%;
+  height: 100%;
+  margin-top: 2rem;
+}
+.submit input {
+  width: 42%;
+  height: 45px;
+  margin-left: 20px;
+  margin-top: 1.3rem;
+  border-radius: 8px;
+  border: none;
+  padding: 8px;
+}
+.submit .name .firstName {
+  font-family: "Capriola";
+  font-size: smaller;
+  color: #464040;
+  position: absolute;
+  top: 0;
+  left: 1.3rem;
+}
+.submit .name .lastName {
+  font-family: "Capriola";
+  font-size: smaller;
+  color: #464040;
+  position: absolute;
+  top: 0;
+  right: 11.5rem;
+}
+.submit .mail-box,
+.feedback-box,
+.name {
+  position: relative;
+}
+.submit .mail-box .email {
+  font-family: "Capriola";
+  font-size: smaller;
+  color: #464040;
+  position: absolute;
+  top: 13px;
+  left: 1.3rem;
+}
+.submit .mail {
+  width: 88.5%;
+  height: 50px;
+  margin-top: 2rem;
+}
+.submit .feedback-box .feedback-placholder {
+  font-family: "Capriola";
+  font-size: smaller;
+  color: #464040;
+  position: absolute;
+  top: 13px;
+  left: 1.3rem;
+}
+.submit textarea {
+  margin-left: 20px;
+  border-radius: 12px;
+  border: none;
+  resize: none;
+}
+.submit .feedback {
+  width: 88.5%;
+  margin-top: 2rem;
+  height: 80px;
+  padding-top: 0;
+  padding: 10px;
+}
+.submit .button {
+  width: 140px;
+  height: 40px;
+  margin-top: 1rem;
+  margin-left: 1.2rem;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  background-color: var(--dark-color);
+  cursor: pointer;
+  transition: 0.2s;
+}
+.submit .button:hover {
+  color: var(--dark-color);
+  background-color: white;
+}
+input[type="text"]:focus {
+  border-color: aqua;
+}
+
+/* footer heseg */
+.footer {
+  width: 100%;
+  height: 180px;
+  background-color: var(--footer-color);
+}
+.footer .footerBox {
+  display: flex;
+  justify-content: center;
+  width: 82%;
+  height: 100%;
+  margin: auto;
+}
+.footer .contact-us {
+  width: 48.5%;
+  display: flex;
+}
+.footer .contact-us .contact-box {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 0 20px 0;
+}
+.footer .contact-us .contact-box .flex {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 16px;
+  color: rgb(0, 0, 0);
+}
+.footer .contact-us .contact-box .flex .txt {
+  font-family: "capriola";
+  font-size: smaller;
+  color: rgb(51, 51, 51);
+}
+
+.footer .about {
+  width: 48.5%;
+}
+.footer .about .contact-box {
+  display: flex;
+  flex-direction: column;
+  padding: 34px 1rem 20px 0;
+  gap: 1rem;
+}
+.footer .about .contact-box h2 {
+  font-family: "capriola";
+  margin-left: 1.3rem;
+  color: rgb(29, 27, 27);
+}
+.footer .about .contact-box p {
+  font-family: "capriola";
+  font-size: smaller;
+  margin-left: 1.3rem;
+  color: rgb(51, 51, 51);
+}

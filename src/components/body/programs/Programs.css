@@ -1,0 +1,87 @@
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 80%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  font-size: small;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: "Capriola";
+}
+
+.slide-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.details {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 120px;
+  height: 25px;
+  border: 1px solid black;
+  cursor: pointer;
+  font-family: "Capriola";
+  text-align: center;
+  text-decoration: none;
+}
+
+.background {
+  width: 100%;
+  height: 600px;
+  background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.background h2 {
+  margin-bottom: 3rem;
+  font-family: "Capriola";
+}

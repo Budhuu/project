@@ -1,0 +1,9 @@
+.signup {
+  font-family: "Capriola";
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  height: 100%;
+  cursor: pointer;
+  position: relative;
+}

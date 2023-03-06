@@ -1,0 +1,14 @@
+.detail-style {
+  width: 80%;
+  margin: auto;
+}
+.detail-style .container {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.detail-style .container img {
+  width: 200px;
+  height: 200px;
+}
